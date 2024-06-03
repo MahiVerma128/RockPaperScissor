@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 18px;
+    margin-bottom: 110px;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+@media screen and (max-width: 740px) {
+    .images {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .images {
+        gap: 4px;
+    }
+}
+
+.image {
+    height: 210px;
+    width: 210px;
+    cursor: pointer;
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.image:hover {
+    background-color: black;
+}
+
+@media screen and (max-width: 740px) {
+    .image {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image {
+        height: 110px;
+        width: 110px;
+    }
+}
+
+img {
+    height: 210px;
+    width: 210px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 110px;
+}
+
+@media screen and (max-width: 740px) {
+    img {
+        height: 140px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.score-board {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px
+}
+
+.score {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media screen and (max-width: 740px) {
+    .score {
+        font-size: 24px;
+    }
+}
+
+#user-score,
+#comp-score {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 740px) {
+
+    #user-score,
+    #comp-score {
+        font-size: 40px;
+    }
+}
+
+.msg {
+    background-color: rgb(6, 6, 43);
+    color: white;
+    font-size: 35px;
+    padding: 14px 20px;
+    display: inline;
+    border-radius: 14px;
+    border: none;
+}
+
+@media screen and (max-width: 740px) {
+    .msg {
+        font-size: 22px;
+    }
+}
