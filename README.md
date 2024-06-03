@@ -1,2 +1,2 @@
 # RockPaperScissor-Game
-This is my game website.
+This is my first game website. Basic html, css and javascript is used.
